@@ -5,7 +5,7 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-find_package(Qt5 CONFIG REQUIRED COMPONENTS Widgets)
+find_package(Qt6 CONFIG REQUIRED COMPONENTS Widgets)
 
-add_executable(out main.cpp calculator.h calculator.cpp)
-target_link_libraries(out PUBLIC Qt5::Widgets)
+add_executable(out main.cpp editor.h editor.cpp)
+target_link_libraries(out PUBLIC Qt6::Widgets)

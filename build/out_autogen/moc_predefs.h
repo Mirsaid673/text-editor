@@ -207,7 +207,7 @@
 #define __DEC128_MAX__ 9.999999999999999999999999999999999E6144DL
 #define __FLT_MANT_DIG__ 24
 #define __LDBL_DECIMAL_DIG__ 21
-#define __VERSION__ "12.2.1 20230111"
+#define __VERSION__ "12.2.1 20230201"
 #define __UINT64_C(c) c ## UL
 #define __cpp_unicode_characters 201411L
 #define _STDC_PREDEF_H 1

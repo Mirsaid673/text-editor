@@ -1,13 +1,14 @@
 out_autogen/timestamp: \
 	/home/neron/Projects/Qt/CMakeLists.txt \
-	/home/neron/Projects/Qt/build/CMakeFiles/3.25.1/CMakeCCompiler.cmake \
-	/home/neron/Projects/Qt/build/CMakeFiles/3.25.1/CMakeCXXCompiler.cmake \
-	/home/neron/Projects/Qt/build/CMakeFiles/3.25.1/CMakeSystem.cmake \
+	/home/neron/Projects/Qt/build/CMakeFiles/3.26.1/CMakeCCompiler.cmake \
+	/home/neron/Projects/Qt/build/CMakeFiles/3.26.1/CMakeCXXCompiler.cmake \
+	/home/neron/Projects/Qt/build/CMakeFiles/3.26.1/CMakeSystem.cmake \
 	/home/neron/Projects/Qt/build/out_autogen/moc_predefs.h \
-	/home/neron/Projects/Qt/calculator.cpp \
-	/home/neron/Projects/Qt/calculator.h \
+	/home/neron/Projects/Qt/editor.cpp \
+	/home/neron/Projects/Qt/editor.h \
 	/home/neron/Projects/Qt/main.cpp \
 	/usr/include/GL/gl.h \
+	/usr/include/alloca.h \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \
 	/usr/include/asm/errno.h \
@@ -15,6 +16,7 @@ out_autogen/timestamp: \
 	/usr/include/asm/unistd_64.h \
 	/usr/include/assert.h \
 	/usr/include/bits/atomic_wide_counter.h \
+	/usr/include/bits/byteswap.h \
 	/usr/include/bits/confname.h \
 	/usr/include/bits/cpu-set.h \
 	/usr/include/bits/endian.h \
@@ -26,15 +28,22 @@ out_autogen/timestamp: \
 	/usr/include/bits/getopt_core.h \
 	/usr/include/bits/getopt_posix.h \
 	/usr/include/bits/libc-header-start.h \
+	/usr/include/bits/local_lim.h \
 	/usr/include/bits/locale.h \
 	/usr/include/bits/long-double.h \
+	/usr/include/bits/posix1_lim.h \
+	/usr/include/bits/posix2_lim.h \
 	/usr/include/bits/posix_opt.h \
 	/usr/include/bits/pthread_stack_min-dynamic.h \
 	/usr/include/bits/pthreadtypes-arch.h \
 	/usr/include/bits/pthreadtypes.h \
 	/usr/include/bits/sched.h \
+	/usr/include/bits/select.h \
 	/usr/include/bits/setjmp.h \
+	/usr/include/bits/stdint-intn.h \
+	/usr/include/bits/stdint-uintn.h \
 	/usr/include/bits/stdio_lim.h \
+	/usr/include/bits/stdlib-float.h \
 	/usr/include/bits/struct_mutex.h \
 	/usr/include/bits/struct_rwlock.h \
 	/usr/include/bits/syscall.h \
@@ -57,6 +66,7 @@ out_autogen/timestamp: \
 	/usr/include/bits/types/error_t.h \
 	/usr/include/bits/types/locale_t.h \
 	/usr/include/bits/types/mbstate_t.h \
+	/usr/include/bits/types/sigset_t.h \
 	/usr/include/bits/types/struct_FILE.h \
 	/usr/include/bits/types/struct___jmp_buf_tag.h \
 	/usr/include/bits/types/struct_itimerspec.h \
@@ -68,10 +78,15 @@ out_autogen/timestamp: \
 	/usr/include/bits/types/timer_t.h \
 	/usr/include/bits/types/wint_t.h \
 	/usr/include/bits/typesizes.h \
+	/usr/include/bits/uintn-identity.h \
+	/usr/include/bits/uio_lim.h \
 	/usr/include/bits/unistd_ext.h \
+	/usr/include/bits/waitflags.h \
+	/usr/include/bits/waitstatus.h \
 	/usr/include/bits/wchar.h \
 	/usr/include/bits/wctype-wchar.h \
 	/usr/include/bits/wordsize.h \
+	/usr/include/bits/xopen_lim.h \
 	/usr/include/c++/12.2.1/algorithm \
 	/usr/include/c++/12.2.1/array \
 	/usr/include/c++/12.2.1/atomic \
@@ -93,14 +108,21 @@ out_autogen/timestamp: \
 	/usr/include/c++/12.2.1/bits/c++0x_warning.h \
 	/usr/include/c++/12.2.1/bits/char_traits.h \
 	/usr/include/c++/12.2.1/bits/charconv.h \
+	/usr/include/c++/12.2.1/bits/chrono.h \
+	/usr/include/c++/12.2.1/bits/codecvt.h \
 	/usr/include/c++/12.2.1/bits/concept_check.h \
 	/usr/include/c++/12.2.1/bits/cpp_type_traits.h \
 	/usr/include/c++/12.2.1/bits/cxxabi_forced.h \
 	/usr/include/c++/12.2.1/bits/cxxabi_init_exception.h \
+	/usr/include/c++/12.2.1/bits/enable_special_members.h \
 	/usr/include/c++/12.2.1/bits/erase_if.h \
 	/usr/include/c++/12.2.1/bits/exception.h \
 	/usr/include/c++/12.2.1/bits/exception_defines.h \
 	/usr/include/c++/12.2.1/bits/exception_ptr.h \
+	/usr/include/c++/12.2.1/bits/fs_dir.h \
+	/usr/include/c++/12.2.1/bits/fs_fwd.h \
+	/usr/include/c++/12.2.1/bits/fs_ops.h \
+	/usr/include/c++/12.2.1/bits/fs_path.h \
 	/usr/include/c++/12.2.1/bits/functexcept.h \
 	/usr/include/c++/12.2.1/bits/functional_hash.h \
 	/usr/include/c++/12.2.1/bits/hash_bytes.h \
@@ -110,8 +132,11 @@ out_autogen/timestamp: \
 	/usr/include/c++/12.2.1/bits/list.tcc \
 	/usr/include/c++/12.2.1/bits/locale_classes.h \
 	/usr/include/c++/12.2.1/bits/locale_classes.tcc \
+	/usr/include/c++/12.2.1/bits/locale_conv.h \
 	/usr/include/c++/12.2.1/bits/locale_facets.h \
 	/usr/include/c++/12.2.1/bits/locale_facets.tcc \
+	/usr/include/c++/12.2.1/bits/locale_facets_nonio.h \
+	/usr/include/c++/12.2.1/bits/locale_facets_nonio.tcc \
 	/usr/include/c++/12.2.1/bits/localefwd.h \
 	/usr/include/c++/12.2.1/bits/max_size_type.h \
 	/usr/include/c++/12.2.1/bits/memoryfwd.h \
@@ -123,9 +148,11 @@ out_autogen/timestamp: \
 	/usr/include/c++/12.2.1/bits/node_handle.h \
 	/usr/include/c++/12.2.1/bits/ostream.tcc \
 	/usr/include/c++/12.2.1/bits/ostream_insert.h \
+	/usr/include/c++/12.2.1/bits/parse_numbers.h \
 	/usr/include/c++/12.2.1/bits/postypes.h \
 	/usr/include/c++/12.2.1/bits/predefined_ops.h \
 	/usr/include/c++/12.2.1/bits/ptr_traits.h \
+	/usr/include/c++/12.2.1/bits/quoted_string.h \
 	/usr/include/c++/12.2.1/bits/range_access.h \
 	/usr/include/c++/12.2.1/bits/ranges_algo.h \
 	/usr/include/c++/12.2.1/bits/ranges_algobase.h \
@@ -174,14 +201,18 @@ out_autogen/timestamp: \
 	/usr/include/c++/12.2.1/bits/vector.tcc \
 	/usr/include/c++/12.2.1/cctype \
 	/usr/include/c++/12.2.1/cerrno \
+	/usr/include/c++/12.2.1/chrono \
 	/usr/include/c++/12.2.1/climits \
 	/usr/include/c++/12.2.1/clocale \
 	/usr/include/c++/12.2.1/cmath \
+	/usr/include/c++/12.2.1/codecvt \
 	/usr/include/c++/12.2.1/compare \
 	/usr/include/c++/12.2.1/concepts \
 	/usr/include/c++/12.2.1/cstddef \
 	/usr/include/c++/12.2.1/cstdint \
 	/usr/include/c++/12.2.1/cstdlib \
+	/usr/include/c++/12.2.1/cstring \
+	/usr/include/c++/12.2.1/ctime \
 	/usr/include/c++/12.2.1/cwchar \
 	/usr/include/c++/12.2.1/cwctype \
 	/usr/include/c++/12.2.1/debug/assertions.h \
@@ -194,31 +225,35 @@ out_autogen/timestamp: \
 	/usr/include/c++/12.2.1/ext/numeric_traits.h \
 	/usr/include/c++/12.2.1/ext/string_conversions.h \
 	/usr/include/c++/12.2.1/ext/type_traits.h \
+	/usr/include/c++/12.2.1/filesystem \
 	/usr/include/c++/12.2.1/functional \
 	/usr/include/c++/12.2.1/future \
 	/usr/include/c++/12.2.1/initializer_list \
+	/usr/include/c++/12.2.1/iomanip \
 	/usr/include/c++/12.2.1/ios \
 	/usr/include/c++/12.2.1/iosfwd \
 	/usr/include/c++/12.2.1/iterator \
 	/usr/include/c++/12.2.1/limits \
 	/usr/include/c++/12.2.1/list \
+	/usr/include/c++/12.2.1/locale \
 	/usr/include/c++/12.2.1/map \
 	/usr/include/c++/12.2.1/memory \
-	/usr/include/c++/12.2.1/mutex \
 	/usr/include/c++/12.2.1/new \
 	/usr/include/c++/12.2.1/numbers \
 	/usr/include/c++/12.2.1/numeric \
+	/usr/include/c++/12.2.1/optional \
 	/usr/include/c++/12.2.1/ostream \
 	/usr/include/c++/12.2.1/pstl/execution_defs.h \
 	/usr/include/c++/12.2.1/pstl/glue_algorithm_defs.h \
 	/usr/include/c++/12.2.1/pstl/glue_memory_defs.h \
 	/usr/include/c++/12.2.1/pstl/glue_numeric_defs.h \
 	/usr/include/c++/12.2.1/random \
+	/usr/include/c++/12.2.1/ratio \
 	/usr/include/c++/12.2.1/stdexcept \
-	/usr/include/c++/12.2.1/stdlib.h \
 	/usr/include/c++/12.2.1/streambuf \
 	/usr/include/c++/12.2.1/string \
 	/usr/include/c++/12.2.1/string_view \
+	/usr/include/c++/12.2.1/system_error \
 	/usr/include/c++/12.2.1/tr1/bessel_function.tcc \
 	/usr/include/c++/12.2.1/tr1/beta_function.tcc \
 	/usr/include/c++/12.2.1/tr1/ell_integral.tcc \
@@ -236,6 +271,7 @@ out_autogen/timestamp: \
 	/usr/include/c++/12.2.1/typeinfo \
 	/usr/include/c++/12.2.1/unordered_map \
 	/usr/include/c++/12.2.1/utility \
+	/usr/include/c++/12.2.1/variant \
 	/usr/include/c++/12.2.1/vector \
 	/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
 	/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
@@ -246,569 +282,868 @@ out_autogen/timestamp: \
 	/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/ctype_inline.h \
 	/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
 	/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
+	/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/messages_members.h \
 	/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
+	/usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/time_members.h \
 	/usr/include/ctype.h \
+	/usr/include/endian.h \
 	/usr/include/errno.h \
 	/usr/include/features-time64.h \
 	/usr/include/features.h \
 	/usr/include/gnu/stubs-64.h \
 	/usr/include/gnu/stubs.h \
 	/usr/include/inttypes.h \
+	/usr/include/libintl.h \
+	/usr/include/limits.h \
 	/usr/include/linux/errno.h \
+	/usr/include/linux/limits.h \
 	/usr/include/locale.h \
 	/usr/include/pthread.h \
-	/usr/include/qt/QtCore/QDeadlineTimer \
-	/usr/include/qt/QtCore/QEvent \
-	/usr/include/qt/QtCore/QList \
-	/usr/include/qt/QtCore/QMargins \
-	/usr/include/qt/QtCore/QMetaType \
-	/usr/include/qt/QtCore/QObject \
-	/usr/include/qt/QtCore/QPointF \
-	/usr/include/qt/QtCore/QRect \
-	/usr/include/qt/QtCore/QScopedPointer \
-	/usr/include/qt/QtCore/QSharedDataPointer \
-	/usr/include/qt/QtCore/QSize \
-	/usr/include/qt/QtCore/QSizeF \
-	/usr/include/qt/QtCore/QStack \
-	/usr/include/qt/QtCore/QStringList \
-	/usr/include/qt/QtCore/QVariant \
-	/usr/include/qt/QtCore/QtCore \
-	/usr/include/qt/QtCore/QtCoreDepends \
-	/usr/include/qt/QtCore/qabstractanimation.h \
-	/usr/include/qt/QtCore/qabstracteventdispatcher.h \
-	/usr/include/qt/QtCore/qabstractitemmodel.h \
-	/usr/include/qt/QtCore/qabstractnativeeventfilter.h \
-	/usr/include/qt/QtCore/qabstractproxymodel.h \
-	/usr/include/qt/QtCore/qabstractstate.h \
-	/usr/include/qt/QtCore/qabstracttransition.h \
-	/usr/include/qt/QtCore/qalgorithms.h \
-	/usr/include/qt/QtCore/qanimationgroup.h \
-	/usr/include/qt/QtCore/qarraydata.h \
-	/usr/include/qt/QtCore/qarraydataops.h \
-	/usr/include/qt/QtCore/qarraydatapointer.h \
-	/usr/include/qt/QtCore/qatomic.h \
-	/usr/include/qt/QtCore/qatomic_cxx11.h \
-	/usr/include/qt/QtCore/qbasicatomic.h \
-	/usr/include/qt/QtCore/qbasictimer.h \
-	/usr/include/qt/QtCore/qbitarray.h \
-	/usr/include/qt/QtCore/qbuffer.h \
-	/usr/include/qt/QtCore/qbytearray.h \
-	/usr/include/qt/QtCore/qbytearraylist.h \
-	/usr/include/qt/QtCore/qbytearraymatcher.h \
-	/usr/include/qt/QtCore/qcache.h \
-	/usr/include/qt/QtCore/qcalendar.h \
-	/usr/include/qt/QtCore/qcborarray.h \
-	/usr/include/qt/QtCore/qcborcommon.h \
-	/usr/include/qt/QtCore/qcbormap.h \
-	/usr/include/qt/QtCore/qcborstream.h \
-	/usr/include/qt/QtCore/qcborstreamreader.h \
-	/usr/include/qt/QtCore/qcborstreamwriter.h \
-	/usr/include/qt/QtCore/qcborvalue.h \
-	/usr/include/qt/QtCore/qchar.h \
-	/usr/include/qt/QtCore/qcollator.h \
-	/usr/include/qt/QtCore/qcommandlineoption.h \
-	/usr/include/qt/QtCore/qcommandlineparser.h \
-	/usr/include/qt/QtCore/qcompilerdetection.h \
-	/usr/include/qt/QtCore/qconcatenatetablesproxymodel.h \
-	/usr/include/qt/QtCore/qconfig.h \
-	/usr/include/qt/QtCore/qcontainerfwd.h \
-	/usr/include/qt/QtCore/qcontainertools_impl.h \
-	/usr/include/qt/QtCore/qcontiguouscache.h \
-	/usr/include/qt/QtCore/qcoreapplication.h \
-	/usr/include/qt/QtCore/qcoreevent.h \
-	/usr/include/qt/QtCore/qcryptographichash.h \
-	/usr/include/qt/QtCore/qdatastream.h \
-	/usr/include/qt/QtCore/qdatetime.h \
-	/usr/include/qt/QtCore/qdeadlinetimer.h \
-	/usr/include/qt/QtCore/qdebug.h \
-	/usr/include/qt/QtCore/qdir.h \
-	/usr/include/qt/QtCore/qdiriterator.h \
-	/usr/include/qt/QtCore/qeasingcurve.h \
-	/usr/include/qt/QtCore/qelapsedtimer.h \
-	/usr/include/qt/QtCore/qendian.h \
-	/usr/include/qt/QtCore/qeventloop.h \
-	/usr/include/qt/QtCore/qeventtransition.h \
-	/usr/include/qt/QtCore/qexception.h \
-	/usr/include/qt/QtCore/qfactoryinterface.h \
-	/usr/include/qt/QtCore/qfile.h \
-	/usr/include/qt/QtCore/qfiledevice.h \
-	/usr/include/qt/QtCore/qfileinfo.h \
-	/usr/include/qt/QtCore/qfileselector.h \
-	/usr/include/qt/QtCore/qfilesystemwatcher.h \
-	/usr/include/qt/QtCore/qfinalstate.h \
-	/usr/include/qt/QtCore/qflags.h \
-	/usr/include/qt/QtCore/qfloat16.h \
-	/usr/include/qt/QtCore/qfuture.h \
-	/usr/include/qt/QtCore/qfutureinterface.h \
-	/usr/include/qt/QtCore/qfuturesynchronizer.h \
-	/usr/include/qt/QtCore/qfuturewatcher.h \
-	/usr/include/qt/QtCore/qgenericatomic.h \
-	/usr/include/qt/QtCore/qglobal.h \
-	/usr/include/qt/QtCore/qglobalstatic.h \
-	/usr/include/qt/QtCore/qhash.h \
-	/usr/include/qt/QtCore/qhashfunctions.h \
-	/usr/include/qt/QtCore/qhistorystate.h \
-	/usr/include/qt/QtCore/qidentityproxymodel.h \
-	/usr/include/qt/QtCore/qiodevice.h \
-	/usr/include/qt/QtCore/qisenum.h \
-	/usr/include/qt/QtCore/qitemselectionmodel.h \
-	/usr/include/qt/QtCore/qiterator.h \
-	/usr/include/qt/QtCore/qjsonarray.h \
-	/usr/include/qt/QtCore/qjsondocument.h \
-	/usr/include/qt/QtCore/qjsonobject.h \
-	/usr/include/qt/QtCore/qjsonvalue.h \
-	/usr/include/qt/QtCore/qlibrary.h \
-	/usr/include/qt/QtCore/qlibraryinfo.h \
-	/usr/include/qt/QtCore/qline.h \
-	/usr/include/qt/QtCore/qlinkedlist.h \
-	/usr/include/qt/QtCore/qlist.h \
-	/usr/include/qt/QtCore/qlocale.h \
-	/usr/include/qt/QtCore/qlockfile.h \
-	/usr/include/qt/QtCore/qlogging.h \
-	/usr/include/qt/QtCore/qloggingcategory.h \
-	/usr/include/qt/QtCore/qmap.h \
-	/usr/include/qt/QtCore/qmargins.h \
-	/usr/include/qt/QtCore/qmath.h \
-	/usr/include/qt/QtCore/qmessageauthenticationcode.h \
-	/usr/include/qt/QtCore/qmetaobject.h \
-	/usr/include/qt/QtCore/qmetatype.h \
-	/usr/include/qt/QtCore/qmimedata.h \
-	/usr/include/qt/QtCore/qmimedatabase.h \
-	/usr/include/qt/QtCore/qmimetype.h \
-	/usr/include/qt/QtCore/qmutex.h \
-	/usr/include/qt/QtCore/qnamespace.h \
-	/usr/include/qt/QtCore/qnumeric.h \
-	/usr/include/qt/QtCore/qobject.h \
-	/usr/include/qt/QtCore/qobject_impl.h \
-	/usr/include/qt/QtCore/qobjectcleanuphandler.h \
-	/usr/include/qt/QtCore/qobjectdefs.h \
-	/usr/include/qt/QtCore/qobjectdefs_impl.h \
-	/usr/include/qt/QtCore/qoperatingsystemversion.h \
-	/usr/include/qt/QtCore/qpair.h \
-	/usr/include/qt/QtCore/qparallelanimationgroup.h \
-	/usr/include/qt/QtCore/qpauseanimation.h \
-	/usr/include/qt/QtCore/qplugin.h \
-	/usr/include/qt/QtCore/qpluginloader.h \
-	/usr/include/qt/QtCore/qpoint.h \
-	/usr/include/qt/QtCore/qpointer.h \
-	/usr/include/qt/QtCore/qprocess.h \
-	/usr/include/qt/QtCore/qprocessordetection.h \
-	/usr/include/qt/QtCore/qpropertyanimation.h \
-	/usr/include/qt/QtCore/qqueue.h \
-	/usr/include/qt/QtCore/qrandom.h \
-	/usr/include/qt/QtCore/qreadwritelock.h \
-	/usr/include/qt/QtCore/qrect.h \
-	/usr/include/qt/QtCore/qrefcount.h \
-	/usr/include/qt/QtCore/qregexp.h \
-	/usr/include/qt/QtCore/qregularexpression.h \
-	/usr/include/qt/QtCore/qresource.h \
-	/usr/include/qt/QtCore/qresultstore.h \
-	/usr/include/qt/QtCore/qrunnable.h \
-	/usr/include/qt/QtCore/qsavefile.h \
-	/usr/include/qt/QtCore/qscopedpointer.h \
-	/usr/include/qt/QtCore/qscopedvaluerollback.h \
-	/usr/include/qt/QtCore/qscopeguard.h \
-	/usr/include/qt/QtCore/qsemaphore.h \
-	/usr/include/qt/QtCore/qsequentialanimationgroup.h \
-	/usr/include/qt/QtCore/qset.h \
-	/usr/include/qt/QtCore/qsettings.h \
-	/usr/include/qt/QtCore/qshareddata.h \
-	/usr/include/qt/QtCore/qsharedmemory.h \
-	/usr/include/qt/QtCore/qsharedpointer.h \
-	/usr/include/qt/QtCore/qsharedpointer_impl.h \
-	/usr/include/qt/QtCore/qsignalmapper.h \
-	/usr/include/qt/QtCore/qsignaltransition.h \
-	/usr/include/qt/QtCore/qsize.h \
-	/usr/include/qt/QtCore/qsocketnotifier.h \
-	/usr/include/qt/QtCore/qsortfilterproxymodel.h \
-	/usr/include/qt/QtCore/qstack.h \
-	/usr/include/qt/QtCore/qstandardpaths.h \
-	/usr/include/qt/QtCore/qstate.h \
-	/usr/include/qt/QtCore/qstatemachine.h \
-	/usr/include/qt/QtCore/qstorageinfo.h \
-	/usr/include/qt/QtCore/qstring.h \
-	/usr/include/qt/QtCore/qstringalgorithms.h \
-	/usr/include/qt/QtCore/qstringbuilder.h \
-	/usr/include/qt/QtCore/qstringlist.h \
-	/usr/include/qt/QtCore/qstringlistmodel.h \
-	/usr/include/qt/QtCore/qstringliteral.h \
-	/usr/include/qt/QtCore/qstringmatcher.h \
-	/usr/include/qt/QtCore/qstringview.h \
-	/usr/include/qt/QtCore/qsysinfo.h \
-	/usr/include/qt/QtCore/qsystemdetection.h \
-	/usr/include/qt/QtCore/qsystemsemaphore.h \
-	/usr/include/qt/QtCore/qtcore-config.h \
-	/usr/include/qt/QtCore/qtcoreversion.h \
-	/usr/include/qt/QtCore/qtemporarydir.h \
-	/usr/include/qt/QtCore/qtemporaryfile.h \
-	/usr/include/qt/QtCore/qtextboundaryfinder.h \
-	/usr/include/qt/QtCore/qtextcodec.h \
-	/usr/include/qt/QtCore/qtextstream.h \
-	/usr/include/qt/QtCore/qthread.h \
-	/usr/include/qt/QtCore/qthreadpool.h \
-	/usr/include/qt/QtCore/qthreadstorage.h \
-	/usr/include/qt/QtCore/qtimeline.h \
-	/usr/include/qt/QtCore/qtimer.h \
-	/usr/include/qt/QtCore/qtimezone.h \
-	/usr/include/qt/QtCore/qtranslator.h \
-	/usr/include/qt/QtCore/qtransposeproxymodel.h \
-	/usr/include/qt/QtCore/qtsan_impl.h \
-	/usr/include/qt/QtCore/qtypeinfo.h \
-	/usr/include/qt/QtCore/qtypetraits.h \
-	/usr/include/qt/QtCore/qurl.h \
-	/usr/include/qt/QtCore/qurlquery.h \
-	/usr/include/qt/QtCore/quuid.h \
-	/usr/include/qt/QtCore/qvariant.h \
-	/usr/include/qt/QtCore/qvariantanimation.h \
-	/usr/include/qt/QtCore/qvarlengtharray.h \
-	/usr/include/qt/QtCore/qvector.h \
-	/usr/include/qt/QtCore/qversionnumber.h \
-	/usr/include/qt/QtCore/qversiontagging.h \
-	/usr/include/qt/QtCore/qwaitcondition.h \
-	/usr/include/qt/QtCore/qwineventnotifier.h \
-	/usr/include/qt/QtCore/qxmlstream.h \
-	/usr/include/qt/QtGui/QImage \
-	/usr/include/qt/QtGui/QMatrix3x3 \
-	/usr/include/qt/QtGui/QMatrix4x4 \
-	/usr/include/qt/QtGui/QOpenGLContext \
-	/usr/include/qt/QtGui/QPaintDevice \
-	/usr/include/qt/QtGui/QPaintDeviceWindow \
-	/usr/include/qt/QtGui/QSurfaceFormat \
-	/usr/include/qt/QtGui/QTransform \
-	/usr/include/qt/QtGui/QVector3D \
-	/usr/include/qt/QtGui/QWindow \
-	/usr/include/qt/QtGui/QtGui \
-	/usr/include/qt/QtGui/QtGuiDepends \
-	/usr/include/qt/QtGui/qabstracttextdocumentlayout.h \
-	/usr/include/qt/QtGui/qaccessible.h \
-	/usr/include/qt/QtGui/qaccessiblebridge.h \
-	/usr/include/qt/QtGui/qaccessibleobject.h \
-	/usr/include/qt/QtGui/qaccessibleplugin.h \
-	/usr/include/qt/QtGui/qbackingstore.h \
-	/usr/include/qt/QtGui/qbitmap.h \
-	/usr/include/qt/QtGui/qbrush.h \
-	/usr/include/qt/QtGui/qclipboard.h \
-	/usr/include/qt/QtGui/qcolor.h \
-	/usr/include/qt/QtGui/qcolorspace.h \
-	/usr/include/qt/QtGui/qcolortransform.h \
-	/usr/include/qt/QtGui/qcursor.h \
-	/usr/include/qt/QtGui/qdesktopservices.h \
-	/usr/include/qt/QtGui/qdrag.h \
-	/usr/include/qt/QtGui/qevent.h \
-	/usr/include/qt/QtGui/qfont.h \
-	/usr/include/qt/QtGui/qfontdatabase.h \
-	/usr/include/qt/QtGui/qfontinfo.h \
-	/usr/include/qt/QtGui/qfontmetrics.h \
-	/usr/include/qt/QtGui/qgenericmatrix.h \
-	/usr/include/qt/QtGui/qgenericplugin.h \
-	/usr/include/qt/QtGui/qgenericpluginfactory.h \
-	/usr/include/qt/QtGui/qglyphrun.h \
-	/usr/include/qt/QtGui/qguiapplication.h \
-	/usr/include/qt/QtGui/qicon.h \
-	/usr/include/qt/QtGui/qiconengine.h \
-	/usr/include/qt/QtGui/qiconengineplugin.h \
-	/usr/include/qt/QtGui/qimage.h \
-	/usr/include/qt/QtGui/qimageiohandler.h \
-	/usr/include/qt/QtGui/qimagereader.h \
-	/usr/include/qt/QtGui/qimagewriter.h \
-	/usr/include/qt/QtGui/qinputmethod.h \
-	/usr/include/qt/QtGui/qkeysequence.h \
-	/usr/include/qt/QtGui/qmatrix.h \
-	/usr/include/qt/QtGui/qmatrix4x4.h \
-	/usr/include/qt/QtGui/qmovie.h \
-	/usr/include/qt/QtGui/qoffscreensurface.h \
-	/usr/include/qt/QtGui/qopengl.h \
-	/usr/include/qt/QtGui/qopenglbuffer.h \
-	/usr/include/qt/QtGui/qopenglcontext.h \
-	/usr/include/qt/QtGui/qopengldebug.h \
-	/usr/include/qt/QtGui/qopenglext.h \
-	/usr/include/qt/QtGui/qopenglextrafunctions.h \
-	/usr/include/qt/QtGui/qopenglframebufferobject.h \
-	/usr/include/qt/QtGui/qopenglfunctions.h \
-	/usr/include/qt/QtGui/qopenglpaintdevice.h \
-	/usr/include/qt/QtGui/qopenglpixeltransferoptions.h \
-	/usr/include/qt/QtGui/qopenglshaderprogram.h \
-	/usr/include/qt/QtGui/qopengltexture.h \
-	/usr/include/qt/QtGui/qopengltextureblitter.h \
-	/usr/include/qt/QtGui/qopengltimerquery.h \
-	/usr/include/qt/QtGui/qopenglversionfunctions.h \
-	/usr/include/qt/QtGui/qopenglvertexarrayobject.h \
-	/usr/include/qt/QtGui/qopenglwindow.h \
-	/usr/include/qt/QtGui/qpagedpaintdevice.h \
-	/usr/include/qt/QtGui/qpagelayout.h \
-	/usr/include/qt/QtGui/qpagesize.h \
-	/usr/include/qt/QtGui/qpaintdevice.h \
-	/usr/include/qt/QtGui/qpaintdevicewindow.h \
-	/usr/include/qt/QtGui/qpaintengine.h \
-	/usr/include/qt/QtGui/qpainter.h \
-	/usr/include/qt/QtGui/qpainterpath.h \
-	/usr/include/qt/QtGui/qpalette.h \
-	/usr/include/qt/QtGui/qpdfwriter.h \
-	/usr/include/qt/QtGui/qpen.h \
-	/usr/include/qt/QtGui/qpicture.h \
-	/usr/include/qt/QtGui/qpictureformatplugin.h \
-	/usr/include/qt/QtGui/qpixelformat.h \
-	/usr/include/qt/QtGui/qpixmap.h \
-	/usr/include/qt/QtGui/qpixmapcache.h \
-	/usr/include/qt/QtGui/qpolygon.h \
-	/usr/include/qt/QtGui/qquaternion.h \
-	/usr/include/qt/QtGui/qrasterwindow.h \
-	/usr/include/qt/QtGui/qrawfont.h \
-	/usr/include/qt/QtGui/qregion.h \
-	/usr/include/qt/QtGui/qrgb.h \
-	/usr/include/qt/QtGui/qrgba64.h \
-	/usr/include/qt/QtGui/qscreen.h \
-	/usr/include/qt/QtGui/qsessionmanager.h \
-	/usr/include/qt/QtGui/qstandarditemmodel.h \
-	/usr/include/qt/QtGui/qstatictext.h \
-	/usr/include/qt/QtGui/qstylehints.h \
-	/usr/include/qt/QtGui/qsurface.h \
-	/usr/include/qt/QtGui/qsurfaceformat.h \
-	/usr/include/qt/QtGui/qsyntaxhighlighter.h \
-	/usr/include/qt/QtGui/qtextcursor.h \
-	/usr/include/qt/QtGui/qtextdocument.h \
-	/usr/include/qt/QtGui/qtextdocumentfragment.h \
-	/usr/include/qt/QtGui/qtextdocumentwriter.h \
-	/usr/include/qt/QtGui/qtextformat.h \
-	/usr/include/qt/QtGui/qtextlayout.h \
-	/usr/include/qt/QtGui/qtextlist.h \
-	/usr/include/qt/QtGui/qtextobject.h \
-	/usr/include/qt/QtGui/qtextoption.h \
-	/usr/include/qt/QtGui/qtexttable.h \
-	/usr/include/qt/QtGui/qtgui-config.h \
-	/usr/include/qt/QtGui/qtguiglobal.h \
-	/usr/include/qt/QtGui/qtguiversion.h \
-	/usr/include/qt/QtGui/qtouchdevice.h \
-	/usr/include/qt/QtGui/qtransform.h \
-	/usr/include/qt/QtGui/qvalidator.h \
-	/usr/include/qt/QtGui/qvector2d.h \
-	/usr/include/qt/QtGui/qvector3d.h \
-	/usr/include/qt/QtGui/qvector4d.h \
-	/usr/include/qt/QtGui/qwindow.h \
-	/usr/include/qt/QtGui/qwindowdefs.h \
-	/usr/include/qt/QtWidgets/QCommonStyle \
-	/usr/include/qt/QtWidgets/QLayout \
-	/usr/include/qt/QtWidgets/QScrollerProperties \
-	/usr/include/qt/QtWidgets/QWidget \
-	/usr/include/qt/QtWidgets/QtWidgets \
-	/usr/include/qt/QtWidgets/QtWidgetsDepends \
-	/usr/include/qt/QtWidgets/qabstractbutton.h \
-	/usr/include/qt/QtWidgets/qabstractitemdelegate.h \
-	/usr/include/qt/QtWidgets/qabstractitemview.h \
-	/usr/include/qt/QtWidgets/qabstractscrollarea.h \
-	/usr/include/qt/QtWidgets/qabstractslider.h \
-	/usr/include/qt/QtWidgets/qabstractspinbox.h \
-	/usr/include/qt/QtWidgets/qaccessiblewidget.h \
-	/usr/include/qt/QtWidgets/qaction.h \
-	/usr/include/qt/QtWidgets/qactiongroup.h \
-	/usr/include/qt/QtWidgets/qapplication.h \
-	/usr/include/qt/QtWidgets/qboxlayout.h \
-	/usr/include/qt/QtWidgets/qbuttongroup.h \
-	/usr/include/qt/QtWidgets/qcalendarwidget.h \
-	/usr/include/qt/QtWidgets/qcheckbox.h \
-	/usr/include/qt/QtWidgets/qcolordialog.h \
-	/usr/include/qt/QtWidgets/qcolormap.h \
-	/usr/include/qt/QtWidgets/qcolumnview.h \
-	/usr/include/qt/QtWidgets/qcombobox.h \
-	/usr/include/qt/QtWidgets/qcommandlinkbutton.h \
-	/usr/include/qt/QtWidgets/qcommonstyle.h \
-	/usr/include/qt/QtWidgets/qcompleter.h \
-	/usr/include/qt/QtWidgets/qdatawidgetmapper.h \
-	/usr/include/qt/QtWidgets/qdatetimeedit.h \
-	/usr/include/qt/QtWidgets/qdesktopwidget.h \
-	/usr/include/qt/QtWidgets/qdial.h \
-	/usr/include/qt/QtWidgets/qdialog.h \
-	/usr/include/qt/QtWidgets/qdialogbuttonbox.h \
-	/usr/include/qt/QtWidgets/qdirmodel.h \
-	/usr/include/qt/QtWidgets/qdockwidget.h \
-	/usr/include/qt/QtWidgets/qdrawutil.h \
-	/usr/include/qt/QtWidgets/qerrormessage.h \
-	/usr/include/qt/QtWidgets/qfiledialog.h \
-	/usr/include/qt/QtWidgets/qfileiconprovider.h \
-	/usr/include/qt/QtWidgets/qfilesystemmodel.h \
-	/usr/include/qt/QtWidgets/qfocusframe.h \
-	/usr/include/qt/QtWidgets/qfontcombobox.h \
-	/usr/include/qt/QtWidgets/qfontdialog.h \
-	/usr/include/qt/QtWidgets/qformlayout.h \
-	/usr/include/qt/QtWidgets/qframe.h \
-	/usr/include/qt/QtWidgets/qgesture.h \
-	/usr/include/qt/QtWidgets/qgesturerecognizer.h \
-	/usr/include/qt/QtWidgets/qgraphicsanchorlayout.h \
-	/usr/include/qt/QtWidgets/qgraphicseffect.h \
-	/usr/include/qt/QtWidgets/qgraphicsgridlayout.h \
-	/usr/include/qt/QtWidgets/qgraphicsitem.h \
-	/usr/include/qt/QtWidgets/qgraphicsitemanimation.h \
-	/usr/include/qt/QtWidgets/qgraphicslayout.h \
-	/usr/include/qt/QtWidgets/qgraphicslayoutitem.h \
-	/usr/include/qt/QtWidgets/qgraphicslinearlayout.h \
-	/usr/include/qt/QtWidgets/qgraphicsproxywidget.h \
-	/usr/include/qt/QtWidgets/qgraphicsscene.h \
-	/usr/include/qt/QtWidgets/qgraphicssceneevent.h \
-	/usr/include/qt/QtWidgets/qgraphicstransform.h \
-	/usr/include/qt/QtWidgets/qgraphicsview.h \
-	/usr/include/qt/QtWidgets/qgraphicswidget.h \
-	/usr/include/qt/QtWidgets/qgridlayout.h \
-	/usr/include/qt/QtWidgets/qgroupbox.h \
-	/usr/include/qt/QtWidgets/qheaderview.h \
-	/usr/include/qt/QtWidgets/qinputdialog.h \
-	/usr/include/qt/QtWidgets/qitemdelegate.h \
-	/usr/include/qt/QtWidgets/qitemeditorfactory.h \
-	/usr/include/qt/QtWidgets/qkeyeventtransition.h \
-	/usr/include/qt/QtWidgets/qkeysequenceedit.h \
-	/usr/include/qt/QtWidgets/qlabel.h \
-	/usr/include/qt/QtWidgets/qlayout.h \
-	/usr/include/qt/QtWidgets/qlayoutitem.h \
-	/usr/include/qt/QtWidgets/qlcdnumber.h \
-	/usr/include/qt/QtWidgets/qlineedit.h \
-	/usr/include/qt/QtWidgets/qlistview.h \
-	/usr/include/qt/QtWidgets/qlistwidget.h \
-	/usr/include/qt/QtWidgets/qmainwindow.h \
-	/usr/include/qt/QtWidgets/qmdiarea.h \
-	/usr/include/qt/QtWidgets/qmdisubwindow.h \
-	/usr/include/qt/QtWidgets/qmenu.h \
-	/usr/include/qt/QtWidgets/qmenubar.h \
-	/usr/include/qt/QtWidgets/qmessagebox.h \
-	/usr/include/qt/QtWidgets/qmouseeventtransition.h \
-	/usr/include/qt/QtWidgets/qopenglwidget.h \
-	/usr/include/qt/QtWidgets/qplaintextedit.h \
-	/usr/include/qt/QtWidgets/qprogressbar.h \
-	/usr/include/qt/QtWidgets/qprogressdialog.h \
-	/usr/include/qt/QtWidgets/qproxystyle.h \
-	/usr/include/qt/QtWidgets/qpushbutton.h \
-	/usr/include/qt/QtWidgets/qradiobutton.h \
-	/usr/include/qt/QtWidgets/qrubberband.h \
-	/usr/include/qt/QtWidgets/qscrollarea.h \
-	/usr/include/qt/QtWidgets/qscrollbar.h \
-	/usr/include/qt/QtWidgets/qscroller.h \
-	/usr/include/qt/QtWidgets/qscrollerproperties.h \
-	/usr/include/qt/QtWidgets/qshortcut.h \
-	/usr/include/qt/QtWidgets/qsizegrip.h \
-	/usr/include/qt/QtWidgets/qsizepolicy.h \
-	/usr/include/qt/QtWidgets/qslider.h \
-	/usr/include/qt/QtWidgets/qspinbox.h \
-	/usr/include/qt/QtWidgets/qsplashscreen.h \
-	/usr/include/qt/QtWidgets/qsplitter.h \
-	/usr/include/qt/QtWidgets/qstackedlayout.h \
-	/usr/include/qt/QtWidgets/qstackedwidget.h \
-	/usr/include/qt/QtWidgets/qstatusbar.h \
-	/usr/include/qt/QtWidgets/qstyle.h \
-	/usr/include/qt/QtWidgets/qstyleditemdelegate.h \
-	/usr/include/qt/QtWidgets/qstylefactory.h \
-	/usr/include/qt/QtWidgets/qstyleoption.h \
-	/usr/include/qt/QtWidgets/qstylepainter.h \
-	/usr/include/qt/QtWidgets/qstyleplugin.h \
-	/usr/include/qt/QtWidgets/qsystemtrayicon.h \
-	/usr/include/qt/QtWidgets/qtabbar.h \
-	/usr/include/qt/QtWidgets/qtableview.h \
-	/usr/include/qt/QtWidgets/qtablewidget.h \
-	/usr/include/qt/QtWidgets/qtabwidget.h \
-	/usr/include/qt/QtWidgets/qtextbrowser.h \
-	/usr/include/qt/QtWidgets/qtextedit.h \
-	/usr/include/qt/QtWidgets/qtoolbar.h \
-	/usr/include/qt/QtWidgets/qtoolbox.h \
-	/usr/include/qt/QtWidgets/qtoolbutton.h \
-	/usr/include/qt/QtWidgets/qtooltip.h \
-	/usr/include/qt/QtWidgets/qtreeview.h \
-	/usr/include/qt/QtWidgets/qtreewidget.h \
-	/usr/include/qt/QtWidgets/qtreewidgetitemiterator.h \
-	/usr/include/qt/QtWidgets/qtwidgets-config.h \
-	/usr/include/qt/QtWidgets/qtwidgetsglobal.h \
-	/usr/include/qt/QtWidgets/qtwidgetsversion.h \
-	/usr/include/qt/QtWidgets/qundogroup.h \
-	/usr/include/qt/QtWidgets/qundostack.h \
-	/usr/include/qt/QtWidgets/qundoview.h \
-	/usr/include/qt/QtWidgets/qwhatsthis.h \
-	/usr/include/qt/QtWidgets/qwidget.h \
-	/usr/include/qt/QtWidgets/qwidgetaction.h \
-	/usr/include/qt/QtWidgets/qwizard.h \
+	/usr/include/qt6/QtCore/QDeadlineTimer \
+	/usr/include/qt6/QtCore/QEvent \
+	/usr/include/qt6/QtCore/QHash \
+	/usr/include/qt6/QtCore/QList \
+	/usr/include/qt6/QtCore/QMap \
+	/usr/include/qt6/QtCore/QMargins \
+	/usr/include/qt6/QtCore/QMetaType \
+	/usr/include/qt6/QtCore/QMutex \
+	/usr/include/qt6/QtCore/QObject \
+	/usr/include/qt6/QtCore/QPointF \
+	/usr/include/qt6/QtCore/QRect \
+	/usr/include/qt6/QtCore/QScopedPointer \
+	/usr/include/qt6/QtCore/QSize \
+	/usr/include/qt6/QtCore/QSizeF \
+	/usr/include/qt6/QtCore/QString \
+	/usr/include/qt6/QtCore/QStringList \
+	/usr/include/qt6/QtCore/QVariant \
+	/usr/include/qt6/QtCore/QtCore \
+	/usr/include/qt6/QtCore/QtCoreDepends \
+	/usr/include/qt6/QtCore/q20algorithm.h \
+	/usr/include/qt6/QtCore/q20functional.h \
+	/usr/include/qt6/QtCore/q20iterator.h \
+	/usr/include/qt6/QtCore/q23functional.h \
+	/usr/include/qt6/QtCore/qabstractanimation.h \
+	/usr/include/qt6/QtCore/qabstracteventdispatcher.h \
+	/usr/include/qt6/QtCore/qabstractitemmodel.h \
+	/usr/include/qt6/QtCore/qabstractnativeeventfilter.h \
+	/usr/include/qt6/QtCore/qabstractproxymodel.h \
+	/usr/include/qt6/QtCore/qalgorithms.h \
+	/usr/include/qt6/QtCore/qanimationgroup.h \
+	/usr/include/qt6/QtCore/qanystringview.h \
+	/usr/include/qt6/QtCore/qapplicationstatic.h \
+	/usr/include/qt6/QtCore/qarraydata.h \
+	/usr/include/qt6/QtCore/qarraydataops.h \
+	/usr/include/qt6/QtCore/qarraydatapointer.h \
+	/usr/include/qt6/QtCore/qassociativeiterable.h \
+	/usr/include/qt6/QtCore/qatomic.h \
+	/usr/include/qt6/QtCore/qatomic_cxx11.h \
+	/usr/include/qt6/QtCore/qbasicatomic.h \
+	/usr/include/qt6/QtCore/qbasictimer.h \
+	/usr/include/qt6/QtCore/qbindingstorage.h \
+	/usr/include/qt6/QtCore/qbitarray.h \
+	/usr/include/qt6/QtCore/qbuffer.h \
+	/usr/include/qt6/QtCore/qbytearray.h \
+	/usr/include/qt6/QtCore/qbytearrayalgorithms.h \
+	/usr/include/qt6/QtCore/qbytearraylist.h \
+	/usr/include/qt6/QtCore/qbytearraymatcher.h \
+	/usr/include/qt6/QtCore/qbytearrayview.h \
+	/usr/include/qt6/QtCore/qcache.h \
+	/usr/include/qt6/QtCore/qcalendar.h \
+	/usr/include/qt6/QtCore/qcborarray.h \
+	/usr/include/qt6/QtCore/qcborcommon.h \
+	/usr/include/qt6/QtCore/qcbormap.h \
+	/usr/include/qt6/QtCore/qcborstream.h \
+	/usr/include/qt6/QtCore/qcborstreamreader.h \
+	/usr/include/qt6/QtCore/qcborstreamwriter.h \
+	/usr/include/qt6/QtCore/qcborvalue.h \
+	/usr/include/qt6/QtCore/qchar.h \
+	/usr/include/qt6/QtCore/qcollator.h \
+	/usr/include/qt6/QtCore/qcommandlineoption.h \
+	/usr/include/qt6/QtCore/qcommandlineparser.h \
+	/usr/include/qt6/QtCore/qcompare.h \
+	/usr/include/qt6/QtCore/qcompare_impl.h \
+	/usr/include/qt6/QtCore/qcompilerdetection.h \
+	/usr/include/qt6/QtCore/qconcatenatetablesproxymodel.h \
+	/usr/include/qt6/QtCore/qconfig.h \
+	/usr/include/qt6/QtCore/qcontainerfwd.h \
+	/usr/include/qt6/QtCore/qcontainerinfo.h \
+	/usr/include/qt6/QtCore/qcontainertools_impl.h \
+	/usr/include/qt6/QtCore/qcontiguouscache.h \
+	/usr/include/qt6/QtCore/qcoreapplication.h \
+	/usr/include/qt6/QtCore/qcoreapplication_platform.h \
+	/usr/include/qt6/QtCore/qcoreevent.h \
+	/usr/include/qt6/QtCore/qcryptographichash.h \
+	/usr/include/qt6/QtCore/qdatastream.h \
+	/usr/include/qt6/QtCore/qdatetime.h \
+	/usr/include/qt6/QtCore/qdeadlinetimer.h \
+	/usr/include/qt6/QtCore/qdebug.h \
+	/usr/include/qt6/QtCore/qdir.h \
+	/usr/include/qt6/QtCore/qdiriterator.h \
+	/usr/include/qt6/QtCore/qeasingcurve.h \
+	/usr/include/qt6/QtCore/qelapsedtimer.h \
+	/usr/include/qt6/QtCore/qendian.h \
+	/usr/include/qt6/QtCore/qeventloop.h \
+	/usr/include/qt6/QtCore/qexception.h \
+	/usr/include/qt6/QtCore/qfactoryinterface.h \
+	/usr/include/qt6/QtCore/qfile.h \
+	/usr/include/qt6/QtCore/qfiledevice.h \
+	/usr/include/qt6/QtCore/qfileinfo.h \
+	/usr/include/qt6/QtCore/qfileselector.h \
+	/usr/include/qt6/QtCore/qfilesystemwatcher.h \
+	/usr/include/qt6/QtCore/qflags.h \
+	/usr/include/qt6/QtCore/qfloat16.h \
+	/usr/include/qt6/QtCore/qforeach.h \
+	/usr/include/qt6/QtCore/qfuture.h \
+	/usr/include/qt6/QtCore/qfuture_impl.h \
+	/usr/include/qt6/QtCore/qfutureinterface.h \
+	/usr/include/qt6/QtCore/qfuturesynchronizer.h \
+	/usr/include/qt6/QtCore/qfuturewatcher.h \
+	/usr/include/qt6/QtCore/qgenericatomic.h \
+	/usr/include/qt6/QtCore/qglobal.h \
+	/usr/include/qt6/QtCore/qglobalstatic.h \
+	/usr/include/qt6/QtCore/qhash.h \
+	/usr/include/qt6/QtCore/qhashfunctions.h \
+	/usr/include/qt6/QtCore/qidentityproxymodel.h \
+	/usr/include/qt6/QtCore/qiodevice.h \
+	/usr/include/qt6/QtCore/qiodevicebase.h \
+	/usr/include/qt6/QtCore/qitemselectionmodel.h \
+	/usr/include/qt6/QtCore/qiterable.h \
+	/usr/include/qt6/QtCore/qiterator.h \
+	/usr/include/qt6/QtCore/qjnienvironment.h \
+	/usr/include/qt6/QtCore/qjniobject.h \
+	/usr/include/qt6/QtCore/qjnitypes.h \
+	/usr/include/qt6/QtCore/qjsonarray.h \
+	/usr/include/qt6/QtCore/qjsondocument.h \
+	/usr/include/qt6/QtCore/qjsonobject.h \
+	/usr/include/qt6/QtCore/qjsonvalue.h \
+	/usr/include/qt6/QtCore/qlibrary.h \
+	/usr/include/qt6/QtCore/qlibraryinfo.h \
+	/usr/include/qt6/QtCore/qline.h \
+	/usr/include/qt6/QtCore/qlist.h \
+	/usr/include/qt6/QtCore/qlocale.h \
+	/usr/include/qt6/QtCore/qlockfile.h \
+	/usr/include/qt6/QtCore/qlogging.h \
+	/usr/include/qt6/QtCore/qloggingcategory.h \
+	/usr/include/qt6/QtCore/qmap.h \
+	/usr/include/qt6/QtCore/qmargins.h \
+	/usr/include/qt6/QtCore/qmath.h \
+	/usr/include/qt6/QtCore/qmessageauthenticationcode.h \
+	/usr/include/qt6/QtCore/qmetacontainer.h \
+	/usr/include/qt6/QtCore/qmetaobject.h \
+	/usr/include/qt6/QtCore/qmetatype.h \
+	/usr/include/qt6/QtCore/qmimedata.h \
+	/usr/include/qt6/QtCore/qmimedatabase.h \
+	/usr/include/qt6/QtCore/qmimetype.h \
+	/usr/include/qt6/QtCore/qmutex.h \
+	/usr/include/qt6/QtCore/qnamespace.h \
+	/usr/include/qt6/QtCore/qnativeinterface.h \
+	/usr/include/qt6/QtCore/qnumeric.h \
+	/usr/include/qt6/QtCore/qobject.h \
+	/usr/include/qt6/QtCore/qobject_impl.h \
+	/usr/include/qt6/QtCore/qobjectcleanuphandler.h \
+	/usr/include/qt6/QtCore/qobjectdefs.h \
+	/usr/include/qt6/QtCore/qobjectdefs_impl.h \
+	/usr/include/qt6/QtCore/qoperatingsystemversion.h \
+	/usr/include/qt6/QtCore/qpair.h \
+	/usr/include/qt6/QtCore/qparallelanimationgroup.h \
+	/usr/include/qt6/QtCore/qpauseanimation.h \
+	/usr/include/qt6/QtCore/qplugin.h \
+	/usr/include/qt6/QtCore/qpluginloader.h \
+	/usr/include/qt6/QtCore/qpoint.h \
+	/usr/include/qt6/QtCore/qpointer.h \
+	/usr/include/qt6/QtCore/qprocess.h \
+	/usr/include/qt6/QtCore/qprocessordetection.h \
+	/usr/include/qt6/QtCore/qpromise.h \
+	/usr/include/qt6/QtCore/qproperty.h \
+	/usr/include/qt6/QtCore/qpropertyanimation.h \
+	/usr/include/qt6/QtCore/qpropertyprivate.h \
+	/usr/include/qt6/QtCore/qqueue.h \
+	/usr/include/qt6/QtCore/qrandom.h \
+	/usr/include/qt6/QtCore/qreadwritelock.h \
+	/usr/include/qt6/QtCore/qrect.h \
+	/usr/include/qt6/QtCore/qrefcount.h \
+	/usr/include/qt6/QtCore/qregularexpression.h \
+	/usr/include/qt6/QtCore/qresource.h \
+	/usr/include/qt6/QtCore/qresultstore.h \
+	/usr/include/qt6/QtCore/qrunnable.h \
+	/usr/include/qt6/QtCore/qsavefile.h \
+	/usr/include/qt6/QtCore/qscopedpointer.h \
+	/usr/include/qt6/QtCore/qscopedvaluerollback.h \
+	/usr/include/qt6/QtCore/qscopeguard.h \
+	/usr/include/qt6/QtCore/qsemaphore.h \
+	/usr/include/qt6/QtCore/qsequentialanimationgroup.h \
+	/usr/include/qt6/QtCore/qsequentialiterable.h \
+	/usr/include/qt6/QtCore/qset.h \
+	/usr/include/qt6/QtCore/qsettings.h \
+	/usr/include/qt6/QtCore/qshareddata.h \
+	/usr/include/qt6/QtCore/qshareddata_impl.h \
+	/usr/include/qt6/QtCore/qsharedmemory.h \
+	/usr/include/qt6/QtCore/qsharedpointer.h \
+	/usr/include/qt6/QtCore/qsharedpointer_impl.h \
+	/usr/include/qt6/QtCore/qsignalmapper.h \
+	/usr/include/qt6/QtCore/qsimd.h \
+	/usr/include/qt6/QtCore/qsize.h \
+	/usr/include/qt6/QtCore/qsocketnotifier.h \
+	/usr/include/qt6/QtCore/qsortfilterproxymodel.h \
+	/usr/include/qt6/QtCore/qstack.h \
+	/usr/include/qt6/QtCore/qstandardpaths.h \
+	/usr/include/qt6/QtCore/qstorageinfo.h \
+	/usr/include/qt6/QtCore/qstring.h \
+	/usr/include/qt6/QtCore/qstringalgorithms.h \
+	/usr/include/qt6/QtCore/qstringbuilder.h \
+	/usr/include/qt6/QtCore/qstringconverter.h \
+	/usr/include/qt6/QtCore/qstringconverter_base.h \
+	/usr/include/qt6/QtCore/qstringfwd.h \
+	/usr/include/qt6/QtCore/qstringlist.h \
+	/usr/include/qt6/QtCore/qstringlistmodel.h \
+	/usr/include/qt6/QtCore/qstringliteral.h \
+	/usr/include/qt6/QtCore/qstringmatcher.h \
+	/usr/include/qt6/QtCore/qstringtokenizer.h \
+	/usr/include/qt6/QtCore/qstringview.h \
+	/usr/include/qt6/QtCore/qsysinfo.h \
+	/usr/include/qt6/QtCore/qsystemdetection.h \
+	/usr/include/qt6/QtCore/qsystemsemaphore.h \
+	/usr/include/qt6/QtCore/qtaggedpointer.h \
+	/usr/include/qt6/QtCore/qtconfigmacros.h \
+	/usr/include/qt6/QtCore/qtcore-config.h \
+	/usr/include/qt6/QtCore/qtcoreexports.h \
+	/usr/include/qt6/QtCore/qtcoreversion.h \
+	/usr/include/qt6/QtCore/qtemporarydir.h \
+	/usr/include/qt6/QtCore/qtemporaryfile.h \
+	/usr/include/qt6/QtCore/qtextboundaryfinder.h \
+	/usr/include/qt6/QtCore/qtextstream.h \
+	/usr/include/qt6/QtCore/qthread.h \
+	/usr/include/qt6/QtCore/qthreadpool.h \
+	/usr/include/qt6/QtCore/qthreadstorage.h \
+	/usr/include/qt6/QtCore/qtimeline.h \
+	/usr/include/qt6/QtCore/qtimer.h \
+	/usr/include/qt6/QtCore/qtimezone.h \
+	/usr/include/qt6/QtCore/qtmetamacros.h \
+	/usr/include/qt6/QtCore/qtranslator.h \
+	/usr/include/qt6/QtCore/qtransposeproxymodel.h \
+	/usr/include/qt6/QtCore/qtsan_impl.h \
+	/usr/include/qt6/QtCore/qtypeinfo.h \
+	/usr/include/qt6/QtCore/qurl.h \
+	/usr/include/qt6/QtCore/qurlquery.h \
+	/usr/include/qt6/QtCore/qutf8stringview.h \
+	/usr/include/qt6/QtCore/quuid.h \
+	/usr/include/qt6/QtCore/qvariant.h \
+	/usr/include/qt6/QtCore/qvariantanimation.h \
+	/usr/include/qt6/QtCore/qvarianthash.h \
+	/usr/include/qt6/QtCore/qvariantlist.h \
+	/usr/include/qt6/QtCore/qvariantmap.h \
+	/usr/include/qt6/QtCore/qvarlengtharray.h \
+	/usr/include/qt6/QtCore/qvector.h \
+	/usr/include/qt6/QtCore/qversionnumber.h \
+	/usr/include/qt6/QtCore/qversiontagging.h \
+	/usr/include/qt6/QtCore/qwaitcondition.h \
+	/usr/include/qt6/QtCore/qwineventnotifier.h \
+	/usr/include/qt6/QtCore/qxmlstream.h \
+	/usr/include/qt6/QtCore/qxpfunctional.h \
+	/usr/include/qt6/QtGui/QAction \
+	/usr/include/qt6/QtGui/QActionGroup \
+	/usr/include/qt6/QtGui/QFileSystemModel \
+	/usr/include/qt6/QtGui/QMatrix4x4 \
+	/usr/include/qt6/QtGui/QPaintDevice \
+	/usr/include/qt6/QtGui/QPaintDeviceWindow \
+	/usr/include/qt6/QtGui/QShortcut \
+	/usr/include/qt6/QtGui/QSurfaceFormat \
+	/usr/include/qt6/QtGui/QTransform \
+	/usr/include/qt6/QtGui/QVector3D \
+	/usr/include/qt6/QtGui/QWindow \
+	/usr/include/qt6/QtGui/QtGui \
+	/usr/include/qt6/QtGui/QtGuiDepends \
+	/usr/include/qt6/QtGui/qabstractfileiconprovider.h \
+	/usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
+	/usr/include/qt6/QtGui/qaccessible.h \
+	/usr/include/qt6/QtGui/qaccessible_base.h \
+	/usr/include/qt6/QtGui/qaccessiblebridge.h \
+	/usr/include/qt6/QtGui/qaccessibleobject.h \
+	/usr/include/qt6/QtGui/qaccessibleplugin.h \
+	/usr/include/qt6/QtGui/qaction.h \
+	/usr/include/qt6/QtGui/qactiongroup.h \
+	/usr/include/qt6/QtGui/qbackingstore.h \
+	/usr/include/qt6/QtGui/qbitmap.h \
+	/usr/include/qt6/QtGui/qbrush.h \
+	/usr/include/qt6/QtGui/qclipboard.h \
+	/usr/include/qt6/QtGui/qcolor.h \
+	/usr/include/qt6/QtGui/qcolorspace.h \
+	/usr/include/qt6/QtGui/qcolortransform.h \
+	/usr/include/qt6/QtGui/qcursor.h \
+	/usr/include/qt6/QtGui/qdesktopservices.h \
+	/usr/include/qt6/QtGui/qdrag.h \
+	/usr/include/qt6/QtGui/qevent.h \
+	/usr/include/qt6/QtGui/qeventpoint.h \
+	/usr/include/qt6/QtGui/qfilesystemmodel.h \
+	/usr/include/qt6/QtGui/qfont.h \
+	/usr/include/qt6/QtGui/qfontdatabase.h \
+	/usr/include/qt6/QtGui/qfontinfo.h \
+	/usr/include/qt6/QtGui/qfontmetrics.h \
+	/usr/include/qt6/QtGui/qgenericmatrix.h \
+	/usr/include/qt6/QtGui/qgenericplugin.h \
+	/usr/include/qt6/QtGui/qgenericpluginfactory.h \
+	/usr/include/qt6/QtGui/qglyphrun.h \
+	/usr/include/qt6/QtGui/qguiapplication.h \
+	/usr/include/qt6/QtGui/qguiapplication_platform.h \
+	/usr/include/qt6/QtGui/qicon.h \
+	/usr/include/qt6/QtGui/qiconengine.h \
+	/usr/include/qt6/QtGui/qiconengineplugin.h \
+	/usr/include/qt6/QtGui/qimage.h \
+	/usr/include/qt6/QtGui/qimageiohandler.h \
+	/usr/include/qt6/QtGui/qimagereader.h \
+	/usr/include/qt6/QtGui/qimagewriter.h \
+	/usr/include/qt6/QtGui/qinputdevice.h \
+	/usr/include/qt6/QtGui/qinputmethod.h \
+	/usr/include/qt6/QtGui/qkeysequence.h \
+	/usr/include/qt6/QtGui/qmatrix4x4.h \
+	/usr/include/qt6/QtGui/qmovie.h \
+	/usr/include/qt6/QtGui/qoffscreensurface.h \
+	/usr/include/qt6/QtGui/qoffscreensurface_platform.h \
+	/usr/include/qt6/QtGui/qopengl.h \
+	/usr/include/qt6/QtGui/qopenglcontext.h \
+	/usr/include/qt6/QtGui/qopenglcontext_platform.h \
+	/usr/include/qt6/QtGui/qopenglext.h \
+	/usr/include/qt6/QtGui/qopenglextrafunctions.h \
+	/usr/include/qt6/QtGui/qopenglfunctions.h \
+	/usr/include/qt6/QtGui/qpagedpaintdevice.h \
+	/usr/include/qt6/QtGui/qpagelayout.h \
+	/usr/include/qt6/QtGui/qpageranges.h \
+	/usr/include/qt6/QtGui/qpagesize.h \
+	/usr/include/qt6/QtGui/qpaintdevice.h \
+	/usr/include/qt6/QtGui/qpaintdevicewindow.h \
+	/usr/include/qt6/QtGui/qpaintengine.h \
+	/usr/include/qt6/QtGui/qpainter.h \
+	/usr/include/qt6/QtGui/qpainterpath.h \
+	/usr/include/qt6/QtGui/qpalette.h \
+	/usr/include/qt6/QtGui/qpdfwriter.h \
+	/usr/include/qt6/QtGui/qpen.h \
+	/usr/include/qt6/QtGui/qpicture.h \
+	/usr/include/qt6/QtGui/qpixelformat.h \
+	/usr/include/qt6/QtGui/qpixmap.h \
+	/usr/include/qt6/QtGui/qpixmapcache.h \
+	/usr/include/qt6/QtGui/qpointingdevice.h \
+	/usr/include/qt6/QtGui/qpolygon.h \
+	/usr/include/qt6/QtGui/qquaternion.h \
+	/usr/include/qt6/QtGui/qrasterwindow.h \
+	/usr/include/qt6/QtGui/qrawfont.h \
+	/usr/include/qt6/QtGui/qregion.h \
+	/usr/include/qt6/QtGui/qrgb.h \
+	/usr/include/qt6/QtGui/qrgba64.h \
+	/usr/include/qt6/QtGui/qrgbafloat.h \
+	/usr/include/qt6/QtGui/qscreen.h \
+	/usr/include/qt6/QtGui/qsessionmanager.h \
+	/usr/include/qt6/QtGui/qshortcut.h \
+	/usr/include/qt6/QtGui/qstandarditemmodel.h \
+	/usr/include/qt6/QtGui/qstatictext.h \
+	/usr/include/qt6/QtGui/qstylehints.h \
+	/usr/include/qt6/QtGui/qsurface.h \
+	/usr/include/qt6/QtGui/qsurfaceformat.h \
+	/usr/include/qt6/QtGui/qsyntaxhighlighter.h \
+	/usr/include/qt6/QtGui/qtextcursor.h \
+	/usr/include/qt6/QtGui/qtextdocument.h \
+	/usr/include/qt6/QtGui/qtextdocumentfragment.h \
+	/usr/include/qt6/QtGui/qtextdocumentwriter.h \
+	/usr/include/qt6/QtGui/qtextformat.h \
+	/usr/include/qt6/QtGui/qtextlayout.h \
+	/usr/include/qt6/QtGui/qtextlist.h \
+	/usr/include/qt6/QtGui/qtextobject.h \
+	/usr/include/qt6/QtGui/qtextoption.h \
+	/usr/include/qt6/QtGui/qtexttable.h \
+	/usr/include/qt6/QtGui/qtgui-config.h \
+	/usr/include/qt6/QtGui/qtguiexports.h \
+	/usr/include/qt6/QtGui/qtguiglobal.h \
+	/usr/include/qt6/QtGui/qtguiversion.h \
+	/usr/include/qt6/QtGui/qtransform.h \
+	/usr/include/qt6/QtGui/qundogroup.h \
+	/usr/include/qt6/QtGui/qundostack.h \
+	/usr/include/qt6/QtGui/qvalidator.h \
+	/usr/include/qt6/QtGui/qvector2d.h \
+	/usr/include/qt6/QtGui/qvector3d.h \
+	/usr/include/qt6/QtGui/qvector4d.h \
+	/usr/include/qt6/QtGui/qvectornd.h \
+	/usr/include/qt6/QtGui/qwindow.h \
+	/usr/include/qt6/QtGui/qwindowdefs.h \
+	/usr/include/qt6/QtWidgets/QCommonStyle \
+	/usr/include/qt6/QtWidgets/QLayout \
+	/usr/include/qt6/QtWidgets/QScrollerProperties \
+	/usr/include/qt6/QtWidgets/QtWidgets \
+	/usr/include/qt6/QtWidgets/QtWidgetsDepends \
+	/usr/include/qt6/QtWidgets/qabstractbutton.h \
+	/usr/include/qt6/QtWidgets/qabstractitemdelegate.h \
+	/usr/include/qt6/QtWidgets/qabstractitemview.h \
+	/usr/include/qt6/QtWidgets/qabstractscrollarea.h \
+	/usr/include/qt6/QtWidgets/qabstractslider.h \
+	/usr/include/qt6/QtWidgets/qabstractspinbox.h \
+	/usr/include/qt6/QtWidgets/qaccessiblewidget.h \
+	/usr/include/qt6/QtWidgets/qaction.h \
+	/usr/include/qt6/QtWidgets/qactiongroup.h \
+	/usr/include/qt6/QtWidgets/qapplication.h \
+	/usr/include/qt6/QtWidgets/qboxlayout.h \
+	/usr/include/qt6/QtWidgets/qbuttongroup.h \
+	/usr/include/qt6/QtWidgets/qcalendarwidget.h \
+	/usr/include/qt6/QtWidgets/qcheckbox.h \
+	/usr/include/qt6/QtWidgets/qcolordialog.h \
+	/usr/include/qt6/QtWidgets/qcolormap.h \
+	/usr/include/qt6/QtWidgets/qcolumnview.h \
+	/usr/include/qt6/QtWidgets/qcombobox.h \
+	/usr/include/qt6/QtWidgets/qcommandlinkbutton.h \
+	/usr/include/qt6/QtWidgets/qcommonstyle.h \
+	/usr/include/qt6/QtWidgets/qcompleter.h \
+	/usr/include/qt6/QtWidgets/qdatawidgetmapper.h \
+	/usr/include/qt6/QtWidgets/qdatetimeedit.h \
+	/usr/include/qt6/QtWidgets/qdial.h \
+	/usr/include/qt6/QtWidgets/qdialog.h \
+	/usr/include/qt6/QtWidgets/qdialogbuttonbox.h \
+	/usr/include/qt6/QtWidgets/qdockwidget.h \
+	/usr/include/qt6/QtWidgets/qdrawutil.h \
+	/usr/include/qt6/QtWidgets/qerrormessage.h \
+	/usr/include/qt6/QtWidgets/qfiledialog.h \
+	/usr/include/qt6/QtWidgets/qfileiconprovider.h \
+	/usr/include/qt6/QtWidgets/qfilesystemmodel.h \
+	/usr/include/qt6/QtWidgets/qfocusframe.h \
+	/usr/include/qt6/QtWidgets/qfontcombobox.h \
+	/usr/include/qt6/QtWidgets/qfontdialog.h \
+	/usr/include/qt6/QtWidgets/qformlayout.h \
+	/usr/include/qt6/QtWidgets/qframe.h \
+	/usr/include/qt6/QtWidgets/qgesture.h \
+	/usr/include/qt6/QtWidgets/qgesturerecognizer.h \
+	/usr/include/qt6/QtWidgets/qgraphicsanchorlayout.h \
+	/usr/include/qt6/QtWidgets/qgraphicseffect.h \
+	/usr/include/qt6/QtWidgets/qgraphicsgridlayout.h \
+	/usr/include/qt6/QtWidgets/qgraphicsitem.h \
+	/usr/include/qt6/QtWidgets/qgraphicsitemanimation.h \
+	/usr/include/qt6/QtWidgets/qgraphicslayout.h \
+	/usr/include/qt6/QtWidgets/qgraphicslayoutitem.h \
+	/usr/include/qt6/QtWidgets/qgraphicslinearlayout.h \
+	/usr/include/qt6/QtWidgets/qgraphicsproxywidget.h \
+	/usr/include/qt6/QtWidgets/qgraphicsscene.h \
+	/usr/include/qt6/QtWidgets/qgraphicssceneevent.h \
+	/usr/include/qt6/QtWidgets/qgraphicstransform.h \
+	/usr/include/qt6/QtWidgets/qgraphicsview.h \
+	/usr/include/qt6/QtWidgets/qgraphicswidget.h \
+	/usr/include/qt6/QtWidgets/qgridlayout.h \
+	/usr/include/qt6/QtWidgets/qgroupbox.h \
+	/usr/include/qt6/QtWidgets/qheaderview.h \
+	/usr/include/qt6/QtWidgets/qinputdialog.h \
+	/usr/include/qt6/QtWidgets/qitemdelegate.h \
+	/usr/include/qt6/QtWidgets/qitemeditorfactory.h \
+	/usr/include/qt6/QtWidgets/qkeysequenceedit.h \
+	/usr/include/qt6/QtWidgets/qlabel.h \
+	/usr/include/qt6/QtWidgets/qlayout.h \
+	/usr/include/qt6/QtWidgets/qlayoutitem.h \
+	/usr/include/qt6/QtWidgets/qlcdnumber.h \
+	/usr/include/qt6/QtWidgets/qlineedit.h \
+	/usr/include/qt6/QtWidgets/qlistview.h \
+	/usr/include/qt6/QtWidgets/qlistwidget.h \
+	/usr/include/qt6/QtWidgets/qmainwindow.h \
+	/usr/include/qt6/QtWidgets/qmdiarea.h \
+	/usr/include/qt6/QtWidgets/qmdisubwindow.h \
+	/usr/include/qt6/QtWidgets/qmenu.h \
+	/usr/include/qt6/QtWidgets/qmenubar.h \
+	/usr/include/qt6/QtWidgets/qmessagebox.h \
+	/usr/include/qt6/QtWidgets/qplaintextedit.h \
+	/usr/include/qt6/QtWidgets/qprogressbar.h \
+	/usr/include/qt6/QtWidgets/qprogressdialog.h \
+	/usr/include/qt6/QtWidgets/qproxystyle.h \
+	/usr/include/qt6/QtWidgets/qpushbutton.h \
+	/usr/include/qt6/QtWidgets/qradiobutton.h \
+	/usr/include/qt6/QtWidgets/qrubberband.h \
+	/usr/include/qt6/QtWidgets/qscrollarea.h \
+	/usr/include/qt6/QtWidgets/qscrollbar.h \
+	/usr/include/qt6/QtWidgets/qscroller.h \
+	/usr/include/qt6/QtWidgets/qscrollerproperties.h \
+	/usr/include/qt6/QtWidgets/qshortcut.h \
+	/usr/include/qt6/QtWidgets/qsizegrip.h \
+	/usr/include/qt6/QtWidgets/qsizepolicy.h \
+	/usr/include/qt6/QtWidgets/qslider.h \
+	/usr/include/qt6/QtWidgets/qspinbox.h \
+	/usr/include/qt6/QtWidgets/qsplashscreen.h \
+	/usr/include/qt6/QtWidgets/qsplitter.h \
+	/usr/include/qt6/QtWidgets/qstackedlayout.h \
+	/usr/include/qt6/QtWidgets/qstackedwidget.h \
+	/usr/include/qt6/QtWidgets/qstatusbar.h \
+	/usr/include/qt6/QtWidgets/qstyle.h \
+	/usr/include/qt6/QtWidgets/qstyleditemdelegate.h \
+	/usr/include/qt6/QtWidgets/qstylefactory.h \
+	/usr/include/qt6/QtWidgets/qstyleoption.h \
+	/usr/include/qt6/QtWidgets/qstylepainter.h \
+	/usr/include/qt6/QtWidgets/qstyleplugin.h \
+	/usr/include/qt6/QtWidgets/qsystemtrayicon.h \
+	/usr/include/qt6/QtWidgets/qtabbar.h \
+	/usr/include/qt6/QtWidgets/qtableview.h \
+	/usr/include/qt6/QtWidgets/qtablewidget.h \
+	/usr/include/qt6/QtWidgets/qtabwidget.h \
+	/usr/include/qt6/QtWidgets/qtextbrowser.h \
+	/usr/include/qt6/QtWidgets/qtextedit.h \
+	/usr/include/qt6/QtWidgets/qtoolbar.h \
+	/usr/include/qt6/QtWidgets/qtoolbox.h \
+	/usr/include/qt6/QtWidgets/qtoolbutton.h \
+	/usr/include/qt6/QtWidgets/qtooltip.h \
+	/usr/include/qt6/QtWidgets/qtreeview.h \
+	/usr/include/qt6/QtWidgets/qtreewidget.h \
+	/usr/include/qt6/QtWidgets/qtreewidgetitemiterator.h \
+	/usr/include/qt6/QtWidgets/qtwidgets-config.h \
+	/usr/include/qt6/QtWidgets/qtwidgetsexports.h \
+	/usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
+	/usr/include/qt6/QtWidgets/qtwidgetsversion.h \
+	/usr/include/qt6/QtWidgets/qundoview.h \
+	/usr/include/qt6/QtWidgets/qwhatsthis.h \
+	/usr/include/qt6/QtWidgets/qwidget.h \
+	/usr/include/qt6/QtWidgets/qwidgetaction.h \
+	/usr/include/qt6/QtWidgets/qwizard.h \
 	/usr/include/sched.h \
 	/usr/include/stdc-predef.h \
+	/usr/include/stdint.h \
 	/usr/include/stdio.h \
+	/usr/include/stdlib.h \
 	/usr/include/string.h \
 	/usr/include/strings.h \
 	/usr/include/sys/cdefs.h \
+	/usr/include/sys/select.h \
 	/usr/include/sys/syscall.h \
+	/usr/include/sys/types.h \
 	/usr/include/syscall.h \
 	/usr/include/time.h \
 	/usr/include/unistd.h \
 	/usr/include/wchar.h \
 	/usr/include/wctype.h \
-	/usr/lib/cmake/Qt5/Qt5Config.cmake \
-	/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake \
-	/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake \
-	/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake \
-	/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake \
-	/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake \
-	/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
-	/usr/lib/cmake/Qt5Core/Qt5CoreMacros.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QPdfPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QWebGLIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake \
-	/usr/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake \
-	/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
-	/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
-	/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
-	/usr/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/limits.h \
-	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include-fixed/syslimits.h \
+	/usr/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
+	/usr/lib/cmake/Qt6/FindWrapAtomic.cmake \
+	/usr/lib/cmake/Qt6/FindWrapOpenGL.cmake \
+	/usr/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
+	/usr/lib/cmake/Qt6/Qt6Config.cmake \
+	/usr/lib/cmake/Qt6/Qt6ConfigExtras.cmake \
+	/usr/lib/cmake/Qt6/Qt6ConfigVersion.cmake \
+	/usr/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake \
+	/usr/lib/cmake/Qt6/Qt6Dependencies.cmake \
+	/usr/lib/cmake/Qt6/Qt6Targets.cmake \
+	/usr/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
+	/usr/lib/cmake/Qt6/QtFeature.cmake \
+	/usr/lib/cmake/Qt6/QtFeatureCommon.cmake \
+	/usr/lib/cmake/Qt6/QtPublicAppleHelpers.cmake \
+	/usr/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake \
+	/usr/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+	/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake \
+	/usr/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake \
+	/usr/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake \
+	/usr/lib/cmake/Qt6/QtPublicPluginHelpers.cmake \
+	/usr/lib/cmake/Qt6/QtPublicTargetHelpers.cmake \
+	/usr/lib/cmake/Qt6/QtPublicTestHelpers.cmake \
+	/usr/lib/cmake/Qt6/QtPublicToolHelpers.cmake \
+	/usr/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake \
+	/usr/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
+	/usr/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
+	/usr/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake \
+	/usr/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake \
+	/usr/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake \
+	/usr/lib/cmake/Qt6Core/Qt6CoreMacros.cmake \
+	/usr/lib/cmake/Qt6Core/Qt6CoreTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Core/Qt6CoreTargets.cmake \
+	/usr/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake \
+	/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake \
+	/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake \
+	/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake \
+	/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake \
+	/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake \
+	/usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake \
+	/usr/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake \
+	/usr/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake \
+	/usr/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake \
+	/usr/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake \
+	/usr/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake \
+	/usr/lib/cmake/Qt6DBus/Qt6DBusTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake \
+	/usr/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake \
+	/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake \
+	/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake \
+	/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake \
+	/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake \
+	/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake \
+	/usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QPdfPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QPdfPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QVkKhrDisplayIntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
+	/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake \
+	/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake \
+	/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake \
+	/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake \
+	/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
+	/usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	/usr/lib/cmake/Qt6Widgets/Qt6WidgetsAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake \
+	/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake \
+	/usr/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersionImpl.cmake \
+	/usr/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake \
+	/usr/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake \
+	/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake \
+	/usr/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake \
+	/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsAdditionalTargetInfo.cmake \
+	/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfig.cmake \
+	/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmake \
+	/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake \
+	/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake \
+	/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake \
+	/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
+	/usr/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/adxintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/amxbf16intrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/amxint8intrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/amxtileintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx2intrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx5124fmapsintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx5124vnniwintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512bf16intrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512bf16vlintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512bitalgintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512bwintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512cdintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512dqintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512erintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512fintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512fp16intrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512fp16vlintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512ifmaintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512ifmavlintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512pfintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512vbmi2intrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512vbmi2vlintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512vbmiintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512vbmivlintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512vlbwintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512vldqintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512vlintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512vnniintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512vnnivlintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512vp2intersectintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512vp2intersectvlintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512vpopcntdqintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avx512vpopcntdqvlintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avxintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/avxvnniintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/bmi2intrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/bmiintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/cetintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/cldemoteintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/clflushoptintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/clwbintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/clzerointrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/emmintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/enqcmdintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/f16cintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/fmaintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/fxsrintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/gfniintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/hresetintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/ia32intrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/immintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/keylockerintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/lwpintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/lzcntintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/mm_malloc.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/mmintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/movdirintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/mwaitintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/mwaitxintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/pconfigintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/pkuintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/pmmintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/popcntintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/prfchwintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/rdseedintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/rtmintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/serializeintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/sgxintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/shaintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/smmintrin.h \
 	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdarg.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdbool.h \
 	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stddef.h \
-	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/stdint.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/tbmintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/tmmintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/tsxldtrkintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/uintrintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/vaesintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/vpclmulqdqintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/waitpkgintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/wbnoinvdintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/wmmintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/x86gprintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/xmmintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/xsavecintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/xsaveintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/xsaveoptintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/xsavesintrin.h \
+	/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.1/include/xtestintrin.h \
 	/usr/share/cmake/Modules/CMakeCInformation.cmake \
 	/usr/share/cmake/Modules/CMakeCXXInformation.cmake \
+	/usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
+	/usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
 	/usr/share/cmake/Modules/CMakeGenericSystem.cmake \
 	/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake \
 	/usr/share/cmake/Modules/CMakeLanguageInformation.cmake \
-	/usr/share/cmake/Modules/CMakeParseArguments.cmake \
 	/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
 	/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
+	/usr/share/cmake/Modules/CheckCSourceCompiles.cmake \
+	/usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
+	/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
+	/usr/share/cmake/Modules/CheckIncludeFile.cmake \
+	/usr/share/cmake/Modules/CheckLibraryExists.cmake \
 	/usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
 	/usr/share/cmake/Modules/Compiler/GNU-C.cmake \
 	/usr/share/cmake/Modules/Compiler/GNU-CXX.cmake \
 	/usr/share/cmake/Modules/Compiler/GNU.cmake \
+	/usr/share/cmake/Modules/FeatureSummary.cmake \
+	/usr/share/cmake/Modules/FindOpenGL.cmake \
+	/usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
+	/usr/share/cmake/Modules/FindPackageMessage.cmake \
+	/usr/share/cmake/Modules/FindPkgConfig.cmake \
+	/usr/share/cmake/Modules/FindThreads.cmake \
+	/usr/share/cmake/Modules/FindVulkan.cmake \
+	/usr/share/cmake/Modules/GNUInstallDirs.cmake \
+	/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
+	/usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
+	/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
+	/usr/share/cmake/Modules/MacroAddFileDependencies.cmake \
 	/usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake \
 	/usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake \
 	/usr/share/cmake/Modules/Platform/Linux-GNU.cmake \

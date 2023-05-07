@@ -1,0 +1,5 @@
+/home/neron/Projects/Qt/build/CMakeFiles/out.dir
+/home/neron/Projects/Qt/build/CMakeFiles/edit_cache.dir
+/home/neron/Projects/Qt/build/CMakeFiles/rebuild_cache.dir
+/home/neron/Projects/Qt/build/CMakeFiles/out_autogen_timestamp_deps.dir
+/home/neron/Projects/Qt/build/CMakeFiles/out_autogen.dir

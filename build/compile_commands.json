@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/neron/Projects/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/neron/Projects/Qt/build/out_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/out.dir/out_autogen/mocs_compilation.cpp.o -c /home/neron/Projects/Qt/build/out_autogen/mocs_compilation.cpp",
+  "file": "/home/neron/Projects/Qt/build/out_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/neron/Projects/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/neron/Projects/Qt/build/out_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/out.dir/main.cpp.o -c /home/neron/Projects/Qt/main.cpp",
+  "file": "/home/neron/Projects/Qt/main.cpp"
+},
+{
+  "directory": "/home/neron/Projects/Qt/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/neron/Projects/Qt/build/out_autogen/include -isystem /usr/include/qt -isystem /usr/include/qt/QtWidgets -isystem /usr/include/qt/QtGui -isystem /usr/include/qt/QtCore -isystem /usr/lib/qt/mkspecs/linux-g++ -g -fPIC -o CMakeFiles/out.dir/calculator.cpp.o -c /home/neron/Projects/Qt/calculator.cpp",
+  "file": "/home/neron/Projects/Qt/calculator.cpp"
+}
+]
